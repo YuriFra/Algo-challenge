@@ -1,3 +1,4 @@
+//simple palindrome check function
 let checkPalin = function (string) {
     if (string === string.split("").reverse().join("")) {
        console.log(string + ' is palindrome');
@@ -8,6 +9,7 @@ let checkPalin = function (string) {
 checkPalin("abba");
 checkPalin("1redder2");
 
+//check word for palindrome & display the longest one
 let array = [];
 let checkLongest = function (string) {
     for (let i = 0; i < string.length; i++) {
