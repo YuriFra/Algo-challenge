@@ -24,8 +24,12 @@ let checkLongest = function (string) {
             }
         }
         console.log(array);
+    //check longest palindrome
     let longest = array.reduce(function (a, b) { return a.length > b.length ? a : b; });
     console.log(longest);
+    // length in numbers
+    longestNr = longest.length;
+    console.log(longestNr);
 }
 
 checkLongest("1redder2");
